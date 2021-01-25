@@ -1,8 +1,7 @@
 def square_array(array)
   # your code here
   array.each do |array|
-    array**2
+    array**2.inspect
     puts "ha"
-    array<<array
   end
 end
